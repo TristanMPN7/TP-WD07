@@ -1,1 +1,268 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #fff;
+  color: #fff;
+}
+
+.LogoSite {
+  max-width: 100%;
+  height: auto;
+}
+
+.menu-burger {
+  display: flex;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.menu-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.menu-dropdown {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+}
+
+.menu-dropdown.active {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  text-align: center;
+  z-index: 1;
+  text-decoration: none;
+}
+
+.menu-dropdown li {
+  margin-bottom: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Bannière téléphone */
+
+.main_slider {
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)),
+    url("bg-1.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.main_slider--info {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.main_slider--info h1 {
+  font-weight: 400;
+}
+
+.main_slider h1,
+.main_slider p {
+  margin-bottom: 20px;
+}
+
+.main-slider--store {
+  max-width: 150px;
+  margin-right: 10px;
+}
+
+.main-slider--phone {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+
+/* Les Avantages */
+
+.main_advantage {
+  text-align: center;
+  margin-top: 50px;
+  margin: 10px;
+}
+
+.main_advantage--block {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.main_advantage--block h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.main_advantage--block p {
+  margin-bottom: 20px;
+}
+
+.main_advantage--img {
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Les Review ------------------------------------ */
+
+.main_review {
+  text-align: center;
+  margin-top: 50px;
+  background-color: #eeeeee;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.main_review--block {
+  max-width: 300px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.main_review--block p {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.main_review--star {
+  margin-top: 5px;
+  max-width: 60%;
+}
+
+.main_intro {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.main_smallSlider--block {
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+}
+
+.main_smallSlider--point-G .main_smallSlider--point-B {
+  max-width: 200px;
+  height: auto;
+}
+
+/*     Price / tarifs       */
+
+.main_price {
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)),
+    url("bg-4.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.main_price--plans {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.main_price--plans h1 {
+  font-weight: 400;
+}
+
+.main_price--noColor {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  border-radius: 5px;
+}
+
+.main_price--buttonPurple {
+  background-color: #ac42c1;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.main_price h1,
+.main_price p {
+  margin-bottom: 20px;
+}
+
+.main_price--premium {
+  background-color: white;
+  color: black;
+  margin: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 5px;
+}
+
+.main-slider--store {
+  max-width: 150px;
+  margin-right: 10px;
+}
+
+.main-slider--phone {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+
+.Main_download {
+  text-align: center;
+}
+
+.main-slider--store {
+  max-width: 150px;
+  margin-right: 10px;
+}
+
+.main-slider--phone {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+
+/*Footer*/
+
+.footer_newsletter--button {
+  background-color: #ac42c1;
+  color: #fff;
+  border: none;
+  padding: 10px 40%;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.propriete {
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  padding: 30px;
+}
